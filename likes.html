@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/888c5fc8dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="image.css">
+    <title>My Favorites</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #dce5d8;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9dc;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #c2caae;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .buttons a {
+            text-decoration: none;
+            background-color: #a2ca7e;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: black;
+            font-size: 1.2em;
+            display: inline-block;
+            margin: 5px;
+        }
+        .buttons a:hover {
+            background-color: #99a37e;
+            color: white;
+        }
+        .section {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: none;
+            padding: 20px;
+            width: 50%;
+            margin: 20px auto;
+            background-color: #f9f9dc;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav {
+            display: flex;
+            gap: 100px;
+            padding: 5px;
+            max-width: 80%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.2em;
+            font-weight: bold;
+            justify-content: center;
+        }
+        
+        .nav a {
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        
+        .nav a:hover, .nav a:focus {
+            background-color: #a2ca7e;
+            color: black;
+        }
+
+
+        #beat:target, #movie:target, #show:target, #indie:target, #rnb:target, #hh:target {
+            display: block;
+        }
+
+        p {
+            text-indent: 50px;
+            text-align: justify;
+        }
+
+        
+        .section nav {
+            margin-top: 15px;
+        }
+        
+        .section nav a {
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: #99a37e;
+            color: white;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .section nav a:hover {
+            background-color: #a2ca7e;
+            color: black;
+        }
+
+        h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+        }
+        h2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+        }
+        h3 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+            font-weight: none;
+            padding: 1px 30px;
+            text-align: center;
+
+        }
+        .audioContainer {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #c2caae;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><strong>My Favorites    </strong></h1>
+        <div class="buttons">
+            <a href="#beat">My Beat</a>
+            <a href="#movie">Favorite Movies</a>
+            <a href="#show">Favorite Show</a>
+            <a href="Web.html"><i class="fa-solid fa-house"></i>&nbsp; Home</a>
+        </div>
+    </div>
+
+    <div id="beat" class="section">
+        <div class="buttons">
+            <a href="#indie">Indie Genre</a>
+            <a href="#rnb">RnB Genre</a>
+            <a href="#hh">Hip-Hop Genre</a>
+            <a href="#"><i class="fa-regular fa-circle-xmark"></i>&nbsp; Close</a>
+        </div>
+    </div>
+
+    <div id="indie" class="section">
+        
+        <div class="audioContainer">
+            <h3>Sana Bumalik</h3>
+            <a href="Images/sud.jpg" target="_self">
+                <img src="C:\MTERM-PROJECT\Images\sud.jpg" alt="Sana Bumalik by SUD." 
+                title="Sana Bumalik by SUD."/>
+                <audio controls autoplay>
+                    <source src="audio/sana bumalik.mp3" type="audio/mp3">
+                </audio>
+            </a>
+        </div>
+        <div class="audioContainer">
+            <h3 align="left">Waltz of four left feet</h3>
+            <a href="Images/indie.jpg" target="_self">
+                <img src="C:\MTERM-PROJECT\Images\indie.jpg" alt="Waltz of four left feet by Shirebound&Busking." 
+                title="  Waltz of four left feet by Shirebound&Busking."/>
+                <audio controls autoplay>
+                    <source src="audio/waltz.mp3" type="audio/mp3">
+                </audio>
+            </a>
+        </div>
+        <div class="audioContainer">
+        <h3 align="left">Pahintulot</h3>
+            <a href="Images/pahin.jpg" target="_self">
+                <img src="C:\MTERM-PROJECT\Images\pahin.jpg" alt="Pahintulot by Shirebound&Busking." 
+                title="Pahintulot by Shirebound&Busking."/>
+                <audio controls autoplay>
+                    <source src="audio/pahintulot.mp3" type="audio/mp3">
+                </audio>
+            </a>
+        </div>
+        <nav>
+            <a href="#beat"><i class="fa-solid fa-arrow-left"></i>&nbsp; Back</a>
+            
+        </nav>
+    </div>
+    <div id="rnb" class="section">
+        
+        <div class="audioContainer">
+            <h3 align="left">Rainbow</h3>
+            <a href="Images/sb.jpg" target="_self">
+                <img src="C:\MTERM-PROJECT\Images\sb.jpg" alt="Rainbow by South Border."
+                title="Rainbow by South Border."/> 
+                <audio controls autoplay>
+                    <source src="audio/rainbow.mp3" type="audio/mp3">
+                </audio>
+            </a>
+        </div>
+
+        <div class="audioContainer">
+        <h3 align="left">Take all the love</h3>
+            <a href="Images/art.jpg" target="_self">
+                <img src="C:\MTERM-PROJECT\Images\art.jpg" alt="Take all the love by Arthur Nery."
+                title="Take all the love by Arthur Nery."/>
+                
+                <audio controls autoplay>
+                    <source src="audio/take.mp3" type="audio/mp3">
+                </audio>
+            </a>
+        </div>
+        <div class="audioContainer">
+            <h3 align="left">Pagsamo</h3>
+            <a href="Images/samo.jpg" target="_self">
+                <img src="C:\MTERM-PROJECT\Images\samo.jpg" alt="Pagsamo by Arthur Nery.">
+                <title="Pagsamo by Arthur Nery."/>         
+                <audio controls autoplay>
+                    <source src="audio/pagsamo.mp3" type="audio/mp3">
+                </audio>
+            </a>
+        </div>
+        <nav>
+            <a href="#beat"><i class="fa-solid fa-arrow-left"></i>&nbsp; Back</a>
+                      
+        </nav>
+    </div>
+    <div id="hh" class="section">
+        
+        <div class="audioContainer">
+            <h3 align="left">Eba</h3>
+            <a href="Images/eba.jpg" target="_self">
+                <img src="C:\MTERM-PROJECT\Images\eba.jpg" alt="Eba by Kiyo."
+                title="Eba by Kiyo."/>
+                <audio controls autoplay>
+                    <source src="audio/eba.mp3" type="audio/mp3">
+                </audio>
+            </a>
+        </div>
+
+        <div class="audioContainer">
+            <h3 align="left">Rapstar</h3>
+            <a href="Images/rap.jpg" target="_self">
+                <img src="C:\MTERM-PROJECT\Images\rap.jpg" alt="Rapstar by Flow G."
+                title="Rapstar BY Flow G."/>
+                <audio controls autoplay>
+                    <source src="audio/rapstar.mp3" type="audio/mp3">
+                </audio>
+            </a>
+        </div>
+
+        <div class="audioContainer">
+            <h3 align="left">Gusto</h3>
+            <a href="Images/gusto.jpg" target="_self">
+                <img src="C:\MTERM-PROJECT\Images\gusto.jpg" alt="Gusto by Zack Tabudlo."
+                title="Eba by Zack Tabudlo."/>
+                <audio controls autoplay>
+                    <source src="audio/gusto.mp3" type="audio/mp3">
+                </audio>
+            </a>
+        </div>
+        <nav>
+            <a href="#beat"><i class="fa-solid fa-arrow-left"></i>&nbsp; Back</a>
+        </nav>
+    </div>
+
+    <div id="movie" class="section">    
+        <div class="audio-container">
+            <h2>How to lose a guy in 10 days</h2>
+            <div class="container2">
+                <p>
+                    Andie argues that the problem is instead her needy, excessively emotional behavior with men, and is inspired to write an article, "How to Lose a Guy in 10 Days". To prove her point, she will begin dating a man and, by imitating Michelle's behavior, provoke him to dump her within 10 days.
+                </p>
+                <iframe width="300" height="250" 
+                    src="https://www.youtube.com/embed/EiHLFK7Fo0s" title="How to Lose A Guy In 10 Days (2003) Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            </h2>
+            <hr width="100%" size="2px" color="black">
+            <h2>10 Things I hate about you</h2>
+            <div class="container2">
+                <p>
+                    The movie showcases how love can blossom in unexpected ways, as Patrick and Kat's relationship develops through a series of events, including a bet, a party, and ultimately, their shared feelings for each other. 
+                </p>
+                <iframe width="300" height="250" 
+            src="https://www.youtube.com/embed/Ax8qnxP2TWY" title="10 Things I Hate About You (1999) Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <nav>
+            <a href="#"><i class="fa-regular fa-circle-xmark"></i>&nbsp; Close</a>
+           
+        </nav>
+    </div>  
+    <div id="show" class="section">
+        <div class="audio-container">
+            <h2>Suits</h2>
+            <div class="container2">
+                <p>
+                    Mike Ross, a brilliant college dropout with a photographic memory, who works as a lawyer for Harvey Specter, a top corporate lawyer, despite never attending law school, while they navigate a high-stakes world of law and relationships.
+                </p>
+                <iframe width="300" height="250"
+                 src="https://www.youtube.com/embed/cUnkjEIW2-o" title="Suits - (Season 1 Trailer)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <hr width="100%" size="2px" color="black">
+            <h2>Food Wars</h2>
+            <div class="container2">
+                <p>
+                    the culinary journey of Soma Yukihira, who dreams of becoming a world-renowned chef, as he navigates the competitive world of the Totsuki Culinary Academy and engages in intense cooking battles called "Shokugeki".
+                </p>
+                <iframe width="300" height="250"
+                src="https://www.youtube.com/embed/pnkDTFVg3dg" title="Food Wars   Shokugeki no Soma The Second Plate Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <nav>
+            <a href="#"><i class="fa-regular fa-circle-xmark"></i>&nbsp; Close</a>
+        </nav>
+    </div>
+
+</body>
+</html>

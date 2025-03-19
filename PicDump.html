@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/888c5fc8dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="image.css">
+    <title>World's Greatest Singer</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #dce5d8;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9dc;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .buttons {
+            margin: 20px 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .buttons a {
+            text-decoration: none;
+            background-color: #a2ca7e;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: black;
+            font-weight: none;
+            margin: 5px;
+            display: inline-block;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.2em;
+        }
+        
+        .buttons a:hover, .buttons a:focus {
+            background-color: #99a37e;
+            color: white;
+        }
+        
+        .section {  
+            display: none;
+            padding: 20px;
+            width: 50%;
+            margin: 20px auto;
+            background-color: #f9f9dc;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .nav {
+            display: flex;
+            gap: 100px;
+            padding: 5px;
+            max-width: 80%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.2em;
+            font-weight: bold;
+            justify-content: center;
+        }
+        
+        .nav a {
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        
+        .nav a:hover, .nav a:focus {
+            background-color: #a2ca7e;
+            color: black;
+        }
+
+
+        #biography:target{
+            display: block;
+        }
+
+        p {
+            text-indent: 50px;
+            text-align: justify;
+        }
+
+        
+        .section nav {
+            margin-top: 15px;
+        }
+        
+        .section nav a {
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: #99a37e;
+            color: white;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .section nav a:hover {
+            background-color: #a2ca7e;
+            color: black;
+        }
+
+        h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+        }
+        h2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            margin: auto;
+        }
+
+        .image-grid a {
+            display: block;
+            text-align: center;
+            
+        }
+
+        .image-grid img {
+            width: 100%; 
+            height: 200px;
+            object-fit: cover; 
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><strong>Picture Dump</strong></h1>
+        <div class="buttons">
+            <a href="#biography">All Photos About ME</a>
+            <a href="Web.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+    </div>
+
+    <div id="biography" class="section">
+        <div class="image-grid">
+            <a href="Images/childhood1.jpg" target="_self">
+                <img src="Images/childhood1.jpg" title="This is my 8th Birthday.">
+            </a>
+            <a href="Images/childhood2.jpg" target="_self">
+                <img src="Images/childhood2.jpg" title="Favorite picture of me when I was a kid.">
+            </a>
+            <a href="Images/teenage1.jpg" target="_self">
+                <img src="Images/teenage1.jpg" title="First time I had an overnight with my friend.">
+            </a>
+            <a href="Images/teenage2.jpg" target="_self">
+                <img src="Images/teenage2.jpg" title="I was in grade 8 when I started playing instruments.">
+            </a>
+            <a href="Images/teenage3.jpg" target="_self">
+                <img src="Images/teenage3.jpg" title="My first long ride with my bike.">
+            </a>
+            <a href="Images/teenage4.jpg" target="_self">
+                <img src="Images/teenage4.jpg" title="This is my grade 12 prom.">
+            </a>
+            <a href="Images/college.jpg" target="_self">
+                <img src="Images/college.jpg" title="UE Open house.">
+            </a>
+            <a href="Images/college2.jpg" target="_self">
+                <img src="Images/college2.jpg" title="First time I tried using a DSLR.">
+            </a>
+            <a href="Images/college3.jpg" target="_self">
+                <img src="Images/college3.jpg" title="Favorite picture so far.">
+            </a>
+            <a href="Images/college4.jpg" target="_self">
+                <img src="Images/college4.jpg" title="Also my favorite picture so far.">
+            </a>
+            <a href="Images/1.jpg" target="_self">
+                <img src="Images/1.jpg" title="My first hirono.">
+            </a>
+            <a href="Images/2.jpg" target="_self">
+                <img src="Images/2.jpg" title="Picture taking for UEJAM SESSION.">
+            </a>
+            <a href="Images/3.jpg" target="_self">
+                <img src="Images/3.jpg" title="Favorite place to visit.">
+            </a>
+            <a href="Images/4.jpg" target="_self">
+                <img src="Images/4.jpg" title="My guitar with signatures of my idols.">
+            </a>
+            <a href="Images/5.jpg" target="_self">
+                <img src="Images/5.jpg" title="Museum date with my friends.">
+            </a>
+            <a href="Images/6.jpg" target="_self">
+                <img src="Images/6.jpg" title="Spontaneous outing with my grade 12 friends.">
+            </a>
+            <a href="Images/7.jpg" target="_self">
+                <img src="Images/7.jpg" title="First-ever gig in University Suites.">
+            </a>
+            <a href="Images/8.jpg" target="_self">
+                <img src="Images/8.jpg" title="With my family.">
+            </a>
+            <a href="Images/9.jpg" target="_self">
+                <img src="Images/9.jpg" title="My sister's graduation.">
+            </a>
+            <a href="Images/10.jpg" target="_self">
+                <img src="Images/10.jpg" title="Finals feels.">
+            </a>
+        </div>
+        <nav>
+            <a href="#"><i class="fa-regular fa-circle-xmark"></i>&nbsp; Close</a>
+        </nav>
+    </div>
+</body>
+</html>

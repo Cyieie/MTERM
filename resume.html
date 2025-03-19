@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Songodanan, Cyrus M.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/888c5fc8dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="image.css">
+    <title>RESUME</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #dce5d8;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9dc;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .buttons {
+            margin: 20px 0;
+        }
+        
+        .buttons a {
+            text-decoration: none;
+            background-color: #a2ca7e;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: black;
+            font-weight: none;
+            margin: 5px;
+            display: inline-block;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.2em;
+        }
+        
+        .buttons a:hover, .buttons a:focus {
+            background-color: #99a37e;
+            color: white;
+        }
+        
+        .section {
+            display: none;
+            padding: 20px;
+            width: 50%;
+            margin: 20px auto;
+            background-color: #f9f9dc;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .nav {
+            display: flex;
+            gap: 100px;
+            padding: 5px;
+            max-width: 80%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.2em;
+            font-weight: bold;
+            justify-content: center;
+        }
+        
+        .nav a {
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        
+        .nav a:hover, .nav a:focus {
+            background-color: #a2ca7e;
+            color: black;
+        }
+
+        
+        #aboutme:target, #ITskill:target, #contact:target, #educ:target, #hobbies:target, #interest:target {
+            display: block;
+        }
+
+        p {
+            text-indent: 50px;
+            text-align: justify;
+        }
+
+        
+        .section nav {
+            margin-top: 15px;
+        }
+        
+        .section nav a {
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: #99a37e;
+            color: white;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .section nav a:hover {
+            background-color: #a2ca7e;
+            color: black;
+        }
+        h1 {
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><strong>Information About Me</strong></h1>
+        <div class="buttons">
+            <a href="#aboutme">About Me</a>
+            <a href="#ITskill">Technical IT Skills</a>
+            <a href="#contact">Contact Information</a>
+            <a href="#educ">Educations Attainment</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#interest">Interest</a>
+            <a href="Web.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+    </div>
+
+    <div id="aboutme" class="section">
+        <div align="center">
+            <a href="C:\MTERM-PROJECT\Images\picture">
+                <img src="C:\MTERM-PROJECT\Images\picture.jpg"/>
+            </a> 
+        </div>
+        <h1>About Me</h1>
+        <p>
+            Hello, I'm Cyrus M. Songodanan, currently a 2nd Year College Student at the University of the East Manila. I have soft skills like adaptability and time management.
+        </p>
+        <nav>
+            <a href="#"><i class="fa-regular fa-circle-xmark"></i>&nbsp; Close</a>
+            <a href="Web.html"><i class="fa-solid fa-house"></i>&nbsp; Home</a>
+        </nav>
+    </div>
+    
+    <div id="ITskill" class="section">
+        <h1>Technical IT Skills</h1>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Canva</li>
+                <li>Visual Studio</li>
+                <li>MySQL</li>
+            </ul>
+            <nav>
+                <a href="#"><i class="fa-regular fa-circle-xmark"></i>&nbsp; Close</a>
+                <a href="Web.html"><i class="fa-solid fa-house"></i>&nbsp; Home</a>
+            </nav>
+    </div>
+    
+    <div id="contact" class="section">
+        <h1>Information About Me</h1>
+            <ul>
+                <li>Name: Songodanan, Cyrus M.</li>
+                <li>Birthday: December 18, 2003</li>
+                <li>Email: songodanan.cyrus@ue.edu.ph</li>
+                <li>Phone: 09......138</li>
+                <li>Address: Santolan Pasig City</li>
+            </ul>
+            <nav>
+                <a href="#"><i class="fa-regular fa-circle-xmark"></i>&nbsp; Close</a>
+                <a href="Web.html"><i class="fa-solid fa-house"></i>&nbsp; Home</a>
+            </nav>
+    </div>
+    
+    <div id="educ" class="section">
+        <h1>Educational Attainment</h1>
+            <ul>
+                <li><strong>Elementary</strong>: God's Grace Christian School</li>
+                <li><strong>Junior High School</strong>: Our Lady of Perpetual Help</li>
+                <li><strong>Senior High School</strong>: University of the East</li>
+                <li><strong>College</strong>: University of the East</li>
+            </ul>
+            <nav>
+                <a href="#"><i class="fa-regular fa-circle-xmark"></i>&nbsp; Close</a>
+                <a href="Web.html"><i class="fa-solid fa-house"></i>&nbsp; Home</a>
+            </nav> 
+    </div>
+    
+    <div id="hobbies" class="section">
+        <h1>Hobbies</h1>
+            <ul>
+                <li>Coding</li>
+                <li>Playing Online Games</li>
+            </ul>
+            <nav>
+                <a href="#"><i class="fa-regular fa-circle-xmark"></i>&nbsp; Close</a>
+                <a href="Web.html"><i class="fa-solid fa-house"></i>&nbsp; Home</a>
+            </nav>
+    </div>
+    
+    <div id="interest" class="section">
+        <h1>Interest    </h1>
+            <ul>
+                <li>Watching CSS/HTML tutorials</li>
+                <li>Marketing</li>
+            </ul>
+            <nav>
+                <a href="#"><i class="fa-regular fa-circle-xmark"></i>&nbsp; Close</a>
+                <a href="Web.html"><i class="fa-solid fa-house"></i>&nbsp; Home</a>
+            </nav>
+    </div>
+</body>
+</html>
